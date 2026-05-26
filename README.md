@@ -10,6 +10,8 @@ touch learning/memory.py
 touch requirements.txt
 
 
+apt update
+apt install -y python3-venv
 python3 -m venv venv
 source venv/bin/activate
 deactivate
